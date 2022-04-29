@@ -39,10 +39,6 @@ class BannerController extends Controller
      */
     public function store(Request $request)
     {
-        //
-
-   
-
         $filename=$request->file('filePath')->getClientOriginalName();
         $file = $request->file('filePath')->store('assets/user/pricelist', 'public');
 
