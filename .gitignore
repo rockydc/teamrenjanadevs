@@ -1,32 +1,12 @@
-composer.phar
-/vendor/
-
-node_modules/
-jspm_packages/
-bower_components/
-
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
 npm-debug.log
 yarn-error.log
-yarn-debug.log
-lerna-debug.log
-.serverless
-
-.env
-.env.test
-.custom-env
-
-# cache files
-.yarn/cache
-.yarn/unplugged
-.yarn/install-state.gz
-.eslintcache
-.cache
-.parcel-cache
-.npm
-
-# vs editor related files
-.vscode-test
-.vscode
-# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
-# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
-# composer.lock
